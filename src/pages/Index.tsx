@@ -436,7 +436,7 @@ const Index = () => {
         <p className="font-bold tracking-[0.15em] uppercase text-gold-light mb-2">
           Harpio Mind · Mapeamento Estratégico
         </p>
-        <p>Documento estritamente confidencial · KPMG × Harpio · 2025</p>
+        <p>Documento estritamente confidencial · KPMG × Harpio · 2026</p>
       </footer>
 
       {/* Dialog Harpio Mind */}
