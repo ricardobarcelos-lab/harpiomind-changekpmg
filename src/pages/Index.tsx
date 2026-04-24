@@ -34,7 +34,7 @@ const navSections = [
 const heroStats = [
   { value: "20", label: "Candidatos mapeados" },
   { value: "8.5", label: "Score médio Top 5" },
-  { value: "8–10", label: "Semanas estimadas" },
+  { value: "48h–36h", label: "agendamento de entrevistas" },
   { value: "R$ 7,5k", label: "Benchmark interno" },
 ];
 
