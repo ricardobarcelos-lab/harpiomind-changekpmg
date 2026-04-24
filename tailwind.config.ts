@@ -13,12 +13,32 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+        display: ["Playfair Display", "serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        kpmg: {
+          dark: "hsl(var(--kpmg-dark))",
+          blue: "hsl(var(--kpmg-blue))",
+          mid: "hsl(var(--kpmg-mid))",
+          light: "hsl(var(--kpmg-light))",
+          accent: "hsl(var(--kpmg-accent))",
+        },
+        harpio: {
+          black: "hsl(var(--harpio-black))",
+          gray: "hsl(var(--harpio-gray))",
+        },
+        gold: {
+          DEFAULT: "hsl(var(--gold))",
+          light: "hsl(var(--gold-light))",
+        },
+        silver: "hsl(var(--silver))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
