@@ -1,5 +1,7 @@
 // Top 20 candidatos mapeados — IDENTIDADE BLINDADA
 // Os nomes reais foram removidos. Todos exibidos como "Pessoa candidata N".
+// Descrições higienizadas: sem datas, sem tempo de casa, sem instituições de ensino
+// e sem métricas públicas (seguidores) que permitam cruzamento de identidade.
 // Acesso ao perfil completo somente via plano Harpio Mind.
 
 export type AxisLevel = "high" | "mid" | "low";
@@ -54,7 +56,7 @@ export const candidates: Candidate[] = [
     role: "Associate – FDD / Transaction Advisory",
     location: "São Paulo, SP",
     description:
-      "Background em M&A Transaction Services com experiência em due diligence financeira e análise de estruturas de custo. Perfil analítico sólido. Passagem anterior por PwC (1 ano e 10 meses). Naturalmente bilíngue pelo ambiente A&M.",
+      "Background em M&A Transaction Services com experiência em due diligence financeira e análise de estruturas de custo. Perfil analítico sólido. Passagem anterior por outra Big Four. Naturalmente bilíngue pelo ambiente A&M.",
     axes: [
       { level: "high", label: "✅ M&A direto" },
       { level: "high", label: "✅ A&M hunting ground" },
@@ -73,7 +75,7 @@ export const candidates: Candidate[] = [
     role: "Consultora – Change Management",
     location: "Osasco, SP",
     description:
-      "Consultora júnior de Change Management na Deloitte – exatamente o hunting ground solicitado pelo stakeholder. Formação pela UFMG. Ambiente Big4 com exposição a múltiplos clientes e projetos de transformação organizacional.",
+      "Consultora júnior de Change Management na Deloitte – exatamente o hunting ground solicitado pelo stakeholder. Ambiente Big4 com exposição a múltiplos clientes e projetos de transformação organizacional.",
     axes: [
       { level: "high", label: "✅ Deloitte Human Capital" },
       { level: "high", label: "✅ Change Management" },
@@ -92,7 +94,7 @@ export const candidates: Candidate[] = [
     role: "Transaction Services Specialist",
     location: "São Paulo, SP",
     description:
-      "Especialista em Transaction Services / Corporate Development na Accenture desde 2022 – perfil incomum que combina M&A com consultoria de grandes projetos. Mais de 4 anos de exposição ao tema. Accenture exige inglês operacional.",
+      "Especialista em Transaction Services / Corporate Development na Accenture – perfil incomum que combina M&A com consultoria de grandes projetos. Ampla exposição ao tema. Accenture exige inglês operacional.",
     axes: [
       { level: "high", label: "✅ M&A + Accenture" },
       { level: "high", label: "✅ Transaction Services" },
@@ -111,7 +113,7 @@ export const candidates: Candidate[] = [
     role: "Senior Analyst – M&A Transaction Services",
     location: "São Paulo, SP",
     description:
-      "Senior Analyst em M&A Transaction Services na PwC. Perfil sólido em due diligence e análise de transações. Formação pelo Centro Universitário Internacional. Inglês operacional para projetos internacionais esperado em PwC.",
+      "Senior Analyst em M&A Transaction Services na PwC. Perfil sólido em due diligence e análise de transações. Inglês operacional para projetos internacionais esperado em PwC.",
     axes: [
       { level: "high", label: "✅ PwC M&A direto" },
       { level: "high", label: "✅ Transaction Services" },
@@ -129,7 +131,7 @@ export const candidates: Candidate[] = [
     role: "Business Analyst – Customer Strategy & Design",
     location: "São Paulo, SP",
     description:
-      "Analista júnior de consultoria na Deloitte, com perfil em análise estratégica e design. Formação na ESPM. Perfil para ser trazido em promoção ao pleno, como estratégia alinhada ao briefing do stakeholder.",
+      "Analista júnior de consultoria na Deloitte, com perfil em análise estratégica e design. Perfil para ser trazido em promoção ao pleno, como estratégia alinhada ao briefing do stakeholder.",
     axes: [
       { level: "high", label: "✅ Deloitte" },
       { level: "mid", label: "⚠️ Não HR direto" },
@@ -147,7 +149,7 @@ export const candidates: Candidate[] = [
     role: "Advisory Associate III – M&A Deals",
     location: "São Paulo, SP",
     description:
-      "Perfil M&A Due Diligence em PwC. Nível Associate III (≈ pleno-sênior) em Deals/Transaction Services. Background analítico em due diligence de transações. Formação na Universidade Santa Cecília. Perfil para lateralizar ao HR M&A.",
+      "Perfil M&A Due Diligence em PwC. Nível Associate III (≈ pleno-sênior) em Deals/Transaction Services. Background analítico em due diligence de transações. Perfil para lateralizar ao HR M&A.",
     axes: [
       { level: "high", label: "✅ PwC Transaction Services" },
       { level: "high", label: "✅ Due Diligence" },
@@ -164,7 +166,7 @@ export const candidates: Candidate[] = [
     role: "Senior Analyst – Human Capital Projects",
     location: "São Paulo, SP",
     description:
-      "Senior Analyst em Human Capital Projects na EXEC desde set/2025. Perfil de consultoria de RH com foco em projetos. Mais de 5.300 seguidores no LinkedIn – boa visibilidade de mercado. Validação de inglês é crítica.",
+      "Senior Analyst em Human Capital Projects na EXEC. Perfil de consultoria de RH com foco em projetos. Boa visibilidade de mercado. Validação de inglês é crítica.",
     axes: [
       { level: "high", label: "✅ Human Capital direto" },
       { level: "mid", label: "⚠️ Não Big4" },
@@ -177,11 +179,11 @@ export const candidates: Candidate[] = [
     rank: 9,
     score: "7.8",
     headerSubtitle: "Ferrero · People & Org South America Manager",
-    company: "Ferrero (ex-Insper)",
+    company: "Ferrero",
     role: "People & Organization South America Region Manager",
     location: "São Paulo, SP",
     description:
-      "Certificação Prosci® em Change Management. Trajetória em HR Transformation e projetos. Formação Insper. Perfil de corporativo mais sênior para a vaga – adequada para o time mas pode estar acima do level pleno.",
+      "Certificação Prosci® em Change Management. Trajetória em HR Transformation e projetos. Perfil de corporativo mais sênior para a vaga – adequada para o time mas pode estar acima do level pleno.",
     axes: [
       { level: "high", label: "✅ Change Management Prosci" },
       { level: "high", label: "✅ HR Transformation" },
@@ -216,7 +218,7 @@ export const candidates: Candidate[] = [
     role: "Senior PMO | HR Transformation & Change Management",
     location: "Belo Horizonte, MG",
     description:
-      "Perfil que combina PMO, HR Transformation e Change Management – três pilares da vaga. Porém localização em BH pode exigir relocalização. Empresa aberta na B3 (AFYA3), portanto com boa governança e escala.",
+      "Perfil que combina PMO, HR Transformation e Change Management – três pilares da vaga. Porém localização em BH pode exigir relocalização. Empresa aberta em bolsa, com boa governança e escala.",
     axes: [
       { level: "high", label: "✅ PMO + HR Trans. + Change" },
       { level: "low", label: "❌ BH – relocação" },
@@ -229,11 +231,11 @@ export const candidates: Candidate[] = [
     rank: 12,
     score: "7.4",
     headerSubtitle: "HR Transformation | Change Management",
-    company: "A validar (LinkedIn público)",
+    company: "A validar",
     role: "HR Transformation | Culture | Change Management",
     location: "São Paulo, SP",
     description:
-      "Perfil com 2.900+ seguidores e experiência declarada em HR Transformation e Change Management. Boa presença digital. Contexto exato da vaga. Validação de inglês e M&A-HR são os próximos passos de assessment.",
+      "Perfil com experiência declarada em HR Transformation e Change Management. Contexto exato da vaga. Validação de inglês e M&A-HR são os próximos passos de assessment.",
     axes: [
       { level: "high", label: "✅ HR Trans. + Change" },
       { level: "mid", label: "⚠️ M&A a validar" },
@@ -246,11 +248,11 @@ export const candidates: Candidate[] = [
     rank: 13,
     score: "7.3",
     headerSubtitle: "Arco Educação · Sr HRBP | HR Transformation",
-    company: "Arco Educação (ARCE3 – B3)",
+    company: "Arco Educação",
     role: "Sr HRBP | HR Transformation | HR Projects",
     location: "São Paulo, SP",
     description:
-      "8.100+ seguidores. Trajetória sólida em HR Transformation e Projects. Empresa listada em B3 com boa governança. Formação FGV. Perfil generalista de RH com foco em projetos – pode ter M&A implícito em contexto de empresa em crescimento via aquisições.",
+      "Trajetória sólida em HR Transformation e Projects. Empresa listada em bolsa com boa governança. Perfil generalista de RH com foco em projetos – pode ter M&A implícito em contexto de empresa em crescimento via aquisições.",
     axes: [
       { level: "high", label: "✅ HR Transformation" },
       { level: "mid", label: "⚠️ HRBP vs. consultoria" },
@@ -267,7 +269,7 @@ export const candidates: Candidate[] = [
     role: "Associate | Tax and Labor – M&A",
     location: "São Paulo, SP",
     description:
-      "Perfil A&M com especialidade em Tax e Labor dentro de M&A – área adjacente ao HR M&A. Conhecimento de passivos trabalhistas em transações é altamente relevante para due diligence de RH. Formação Mackenzie. Inglês A&M.",
+      "Perfil A&M com especialidade em Tax e Labor dentro de M&A – área adjacente ao HR M&A. Conhecimento de passivos trabalhistas em transações é altamente relevante para due diligence de RH. Inglês A&M.",
     axes: [
       { level: "high", label: "✅ A&M M&A" },
       { level: "high", label: "✅ Labor em transações" },
@@ -301,7 +303,7 @@ export const candidates: Candidate[] = [
     role: "Business & People Advisory Consultant",
     location: "São Paulo, SP",
     description:
-      "Consultora em Business & People Advisory na Russell Reynolds desde mai/2023. Perfil de consultoria executiva de RH. Inglês nativo ao contexto RR. Possível interesse em migrar para advisory de M&A-HR na KPMG, que oferece maior aprendizado técnico.",
+      "Consultora em Business & People Advisory na Russell Reynolds. Perfil de consultoria executiva de RH. Inglês nativo ao contexto RR. Possível interesse em migrar para advisory de M&A-HR na KPMG, que oferece maior aprendizado técnico.",
     axes: [
       { level: "high", label: "✅ People Advisory" },
       { level: "high", label: "✅ Consultoria premium" },
@@ -314,11 +316,11 @@ export const candidates: Candidate[] = [
     rank: 17,
     score: "6.9",
     headerSubtitle: "Human Capital Management · Associate BP",
-    company: "A confirmar (LinkedIn público)",
+    company: "A confirmar",
     role: "Associate | Business Partner",
     location: "São Paulo, SP",
     description:
-      "Perfil com background em Human Capital Management e Business Partnership. 3.000+ seguidores. Perfil inclusivo e diverso. Exposição a projetos de People & Organization. Avaliação de inglês e M&A-HR é pré-requisito antes de avanço.",
+      "Perfil com background em Human Capital Management e Business Partnership. Exposição a projetos de People & Organization. Avaliação de inglês e M&A-HR é pré-requisito antes de avanço.",
     axes: [
       { level: "mid", label: "⚠️ Human Capital" },
       { level: "mid", label: "⚠️ M&A a validar" },
@@ -335,7 +337,7 @@ export const candidates: Candidate[] = [
     role: "Senior People Experience | Talent Mgmt & People Analytics",
     location: "São Paulo, SP",
     description:
-      "Perfil People Analytics e Talent Management com 1.800+ seguidores. Experiência em HR Transformation e Digitalização. Perfil adjacente que pode ter curva de aprendizado em M&A, mas traz skillset analítico e de dados que complementa a área.",
+      "Perfil People Analytics e Talent Management. Experiência em HR Transformation e Digitalização. Perfil adjacente que pode ter curva de aprendizado em M&A, mas traz skillset analítico e de dados que complementa a área.",
     axes: [
       { level: "high", label: "✅ HR Analytics" },
       { level: "mid", label: "⚠️ M&A a validar" },
