@@ -19,6 +19,8 @@ import { candidates } from "@/data/candidates";
 import CandidateCard from "@/components/CandidateCard";
 import HarpioMindDialog from "@/components/HarpioMindDialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import harpioLogo from "@/assets/harpio-logo.png";
+import kpmgLogo from "@/assets/kpmg-logo.png";
 
 const navSections = [
   { id: "contexto", label: "01 · Contexto" },
@@ -90,12 +92,18 @@ const Index = () => {
 
         <div className="relative max-w-7xl mx-auto">
           <div className="flex flex-wrap items-center justify-between gap-4 mb-12">
-            <div className="flex items-center gap-4">
-              <span className="font-display text-2xl font-bold text-white tracking-tight">
-                Harpio<span className="text-gold-light">.</span>
-              </span>
+            <div className="flex items-center gap-5">
+              <img
+                src={harpioLogo}
+                alt="Harpio Mind"
+                className="h-9 w-auto brightness-0 invert"
+              />
               <span className="w-px h-8 bg-white/30" />
-              <span className="font-extrabold text-2xl text-white tracking-[-0.04em]">KPMG</span>
+              <img
+                src={kpmgLogo}
+                alt="KPMG"
+                className="h-7 w-auto brightness-0 invert"
+              />
             </div>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/15 border border-gold text-gold-light text-[10px] font-bold tracking-[0.12em] uppercase">
               <Lock className="w-3 h-3" />
